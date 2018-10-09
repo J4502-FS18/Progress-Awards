@@ -1,4 +1,16 @@
 /*FLEXBOX*/
+html {
+	font-size: 100%
+}
+
 .header
-.footer
+
+#footer {
+  color: #162238;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 0.7em;
+  border-top: 1px solid #162238;
+  border-width: 95%;
+}
+
 .articles
