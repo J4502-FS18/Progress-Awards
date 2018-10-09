@@ -1,19 +1,15 @@
-<<<<<<< HEAD
+
 /*FLEXBOX*/
-html {
-	font-size: 100%
-}
-=======
+
 /*font-family: 'Playfair Display', serif;
 font-family: 'Alegreya', serif;
 font-family: 'Poppins', sans-serif;*/
->>>>>>> fc3560f17a4736bf50acbd9f5c84c2ba5e3c81f8
 
 .header
 
 #footer {
   color: #162238;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 0.7em;
   border-top: 1px solid #162238;
   border-width: 95%;
