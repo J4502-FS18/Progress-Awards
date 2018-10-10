@@ -16,7 +16,7 @@ a:hover {
 
 .caption {
 margin-top: 5px;
-font-family: 'Poppins', Helvetica, sans-sans-serif;
+font-family: 'Poppins', Helvetica, sans-serif;
 font-size: 0.5em;
 }
 
@@ -52,7 +52,7 @@ font-size: 0.5em;
 }
 
 p {
-  font-family: 'Poppins', Helvetica,sans-serif;
+  font-family: 'Poppins', Helvetica, sans-serif;
   font-size: 0.75em;
   padding: .08px;
   line-height: 1.2rem;
