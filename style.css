@@ -19,16 +19,17 @@ margin-top: 5px;
 font-family: "Poppins", Helvetica, sans-sans-serif;
 font-size: 0.5em;
 }
+
 .item {
 	color: #ffffff;
-	padding: 10px;
-	margin: 1.5px;
+	padding: 8px;
+	margin: 1px;
 	background: #3d3d3d;
-	border-radius: 3px;
+	border-radius: 2px;
 	font-family: 'Poppins', Helvetica, sans-serif;
 	font-weight: normal;
   text-decoration: none;
-  font-size: 11pt;
+  font-size: 10pt;
 }
 
 .item a:link, .item a:visited {
@@ -57,13 +58,6 @@ p {
   line-height: 1.2rem;
 }
 
-#main {
-  background-color: #cccccc;
-}
-
-#container {
-  margin-top: 35px;
-}
 
 h1 {
 	font-size: 1.7rem;
