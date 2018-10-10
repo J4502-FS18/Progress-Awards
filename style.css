@@ -51,12 +51,12 @@ p {
   line-height: 1.2rem;
 }
 
+
 h1 {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	color: #324359;
 	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 	font-weight: 900;
-	padding: 4px;
 	text-align: left;
 }
 
@@ -64,7 +64,7 @@ h2 {
 	font-size: 1.1rem;
 	color: #3d3d3d;
 	font-family: "Poppins", Helvetica,sans-serif;
-	padding: 2.1px;
+	padding: 2.3px;
   text-decoration: none;
 }
 
@@ -122,7 +122,7 @@ li {
 }
 
 #container {
-  width: 95%;
+  width: 93%;
   margin: 0 auto;
 }
 
