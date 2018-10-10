@@ -3,19 +3,20 @@ font-family: 'Alegreya', serif;
 font-family: 'Poppins', sans-serif;*/
 
 .item {
-	color: #ea694a;
+	color: #ffffff;
 	padding: 15px;
 	margin: 5px;
 	background: #3d3d3d;
 	border-radius: 3px;
 	font-family: 'Poppins', sans-serif;
-	font-weight: bold;
+	font-weight: normal;
+  text-decoration: none;
 }
 
 .item a:link, .item a:visited {
-	color: #ea694a
+	color: #ffffff;
+	text-decoration: none;
 }
-
 
 #footer {
   color: #3d3d3d;
@@ -28,22 +29,23 @@ font-family: 'Poppins', sans-serif;*/
 }
 
 p {
-font-family: "Poppins", Helvetica,sans-serif;
-font-size: 0.8em;
-padding: 1px
+  font-family: "Poppins", Helvetica,sans-serif;
+  font-size: 0.8em;
+  padding: 1px;
+  line-height: 1.2rem;
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 2.1rem;
 	color: #324359;
 	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 	font-weight: 900;
 	padding: 3px;
-	text-align: center;
+	text-align: left;
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	color: #3d3d3d;
 	font-family: "Poppins", Helvetica,sans-serif;
 	padding: 3px;
@@ -59,3 +61,20 @@ h3 {
 .bold {
 	font-weight: bold;
 }
+
+.flexcontainer {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: column wrap;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-content: stretch;
+	flex-shrink: 10;
+}
+
+@media (min-width: 600px) {
+
+  .flexcontainer {
+    flex-direction: row;
+    justify-content: center;
+  }
