@@ -14,6 +14,11 @@ a:hover {
   cursor:pointer;
 }
 
+.caption {
+margin-top: 5px;
+font-family: "Poppins", Helvetica, sans-sans-serif;
+font-size: 0.5em;
+}
 .item {
 	color: #ffffff;
 	padding: 15px;
