@@ -16,13 +16,14 @@ a:hover {
 
 .item {
 	color: #ffffff;
-	padding: 15px;
-	margin: 5px;
+	padding: 10px;
+	margin: 1.5px;
 	background: #3d3d3d;
 	border-radius: 3px;
 	font-family: 'Poppins', Helvetica, sans-serif;
 	font-weight: normal;
   text-decoration: none;
+  font-size: 11pt;
 }
 
 .item a:link, .item a:visited {
@@ -53,6 +54,10 @@ p {
 
 #main {
   background-color: #cccccc;
+}
+
+#container {
+  margin-top: 35px;
 }
 
 h1 {
