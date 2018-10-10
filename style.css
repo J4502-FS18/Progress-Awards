@@ -16,7 +16,7 @@ a:hover {
 
 .caption {
 margin-top: 5px;
-font-family: "Poppins", Helvetica, sans-sans-serif;
+font-family: 'Poppins', Helvetica, sans-sans-serif;
 font-size: 0.5em;
 }
 
@@ -45,14 +45,14 @@ font-size: 0.5em;
 
 #footer {
   color: #ffffff;
-  font-family: "Poppins", Helvetica, sans-serif;
+  font-family: 'Poppins', Helvetica, sans-serif;
   font-size: 0.7em;
   padding: 15px;
   background-color: #679fc2;
 }
 
 p {
-  font-family: "Poppins", Helvetica,sans-serif;
+  font-family: 'Poppins', Helvetica,sans-serif;
   font-size: 0.75em;
   padding: .08px;
   line-height: 1.2rem;
@@ -62,7 +62,7 @@ p {
 h1 {
 	font-size: 1.7rem;
 	color: #324359;
-	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+	font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
 	font-weight: 900;
 	text-align: left;
 }
@@ -70,7 +70,7 @@ h1 {
 h2 {
 	font-size: 1.2rem;
 	color: #3d3d3d;
-	font-family: "Poppins", Helvetica,sans-serif;
+	font-family: 'Poppins', Helvetica,sans-serif;
 	padding: 2.3px;
   text-decoration: none;
 }
@@ -89,7 +89,7 @@ h2 {
 h3 {
 	font-size: .9rem;
 	color: #3d3d3d;
-	font-family: "Poppins",Helvetica,sans-serif;
+	font-family: 'Poppins',Helvetica,sans-serif;
 	padding: 1px;
 }
 
