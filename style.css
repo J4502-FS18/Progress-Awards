@@ -53,14 +53,14 @@ font-size: 0.5em;
 
 p {
   font-family: 'Poppins', Helvetica, sans-serif;
-  font-size: 0.75em;
+  font-size: 1em;
   padding: .08px;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
 }
 
 
 h1 {
-	font-size: 1.7rem;
+	font-size: 1.8rem;
 	color: #324359;
 	font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
 	font-weight: 900;
@@ -68,7 +68,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	color: #3d3d3d;
 	font-family: 'Poppins', Helvetica,sans-serif;
 	padding: 2.3px;
@@ -149,6 +149,10 @@ li {
 	flex-shrink: 10;
 }
 
+.bold {
+  font-weight: 700;
+  background-color: #ccc;
+}
 
 @media (min-width: 600px) {
 
