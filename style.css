@@ -72,7 +72,13 @@ h2 {
 	color: #3d3d3d;
 	font-family: 'Poppins', Helvetica,sans-serif;
 	padding: 2.3px;
+  padding-top: 25px;
+  padding-bottom: 5px;
   text-decoration: none;
+}
+
+.nominate {
+  padding: 0;
 }
 
 #button {
@@ -154,6 +160,7 @@ li {
   background-color: #ccc;
 }
 
+
 @media (min-width: 600px) {
 
   .flexcontainer {
@@ -223,4 +230,22 @@ nav ul {
         order: 2;
     }
 
+}
+
+
+@media screen and (min-width: 1000px){
+  #container {
+    max-width: 800px;
+  }
+
+  .flexcontainer{
+    max-width: 800px;
+    justify-content: center;
+    float: none;
+    margin: 20px;
+  }
+
+  #flexcontainer{
+    max-width: 800px;
+  }
 }
