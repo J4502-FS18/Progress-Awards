@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-  color:#3d3d3d;
+  color: #cccccc;
   text-decoration:none;
   cursor:pointer;
 }
@@ -159,6 +159,8 @@ li {
 	flex-shrink: 10;
 }
 
+<<<<<<< HEAD
+=======
 .bold {
   font-weight: 700;
   background-color: #ccc;
@@ -168,6 +170,7 @@ li {
   font-weight: 800;
 }
 
+>>>>>>> 0209440618261f544d7acf7411392c0b91f3bed9
 @media (min-width: 600px) {
 
   .flexcontainer {
@@ -175,6 +178,82 @@ li {
     justify-content: center;
   }
 }
+
+@media screen and (min-width: 800px) {
+  article {
+    display: grid;
+    grid-template-columns: 500 500 500 500;
+    grid-template-rows: 240 240 240 240;
+    grid-gap: 20px;
+    grid-template-areas:
+    "a b . ."
+    "c d . ."
+    "e f . ."
+    "g h . ."
+    "i j . .";
+  }
+
+  .image {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+  .image1 {
+    grid-area: a;
+  }
+
+  .image2 {
+    grid-area: b;
+  }
+
+  .image3 {
+    grid-area: c;
+  }
+
+  .image4 {
+    grid-area: d;
+  }
+  .image5 {
+    grid-area: e;
+  }
+
+  .image6 {
+    grid-area: f;
+  }
+
+  .image7 {
+    grid-area: g;
+  }
+
+  .image8 {
+    grid-area: h
+  }
+
+  .image9 {
+    grid-area: i
+  }
+
+  .image10 {
+    grid-area: j
+  }
+
+@media screen and (min-width: 1000px) {
+  article {
+    display: grid;
+    grid-template-columns: 500 500 500 500;
+    grid-template-rows: 240 240 240 240;
+    grid-gap: 20px;
+    grid-template-areas:
+    "a b c ."
+    "d e f ."
+    "g h i ."
+    "j . . .";
+  }
+}
+
+
+
 
 /*MENU*/
 
@@ -189,6 +268,7 @@ nav a {
     text-decoration: none;
     padding: 50px 30px;
     color: #ffffff;
+    font-size: 1em;
 }
 
 header {
@@ -197,6 +277,7 @@ header {
     background-color: #3d3d3d;
     margin: 0;
     padding: 0 0;
+
 }
 
 .menu-trigger {
