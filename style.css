@@ -9,7 +9,7 @@ a {
 }
 
 a:hover {
-  color:#3d3d3d;
+  color: #cccccc;
   text-decoration:none;
   cursor:pointer;
 }
@@ -175,6 +175,7 @@ nav a {
     text-decoration: none;
     padding: 50px 30px;
     color: #ffffff;
+    font-size: 1em;
 }
 
 header {
@@ -183,6 +184,7 @@ header {
     background-color: #3d3d3d;
     margin: 0;
     padding: 0 0;
+
 }
 
 .menu-trigger {
