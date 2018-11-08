@@ -119,6 +119,10 @@ h3 {
 
 li {
   padding: 3px;
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-size: 1em;
+  padding: .08px;
+  line-height: 1.5rem;
 }
 
 #articles {
@@ -160,6 +164,9 @@ li {
   background-color: #ccc;
 }
 
+.bold2 {
+  font-weight: 800;
+}
 
 @media (min-width: 600px) {
 
