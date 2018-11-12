@@ -48,6 +48,8 @@ nav a .container {
 .container li {
     display: block;
     text-decoration: none;
+    padding-top: 25px;
+    padding-right: 10px;
 }
 
 nav a {
@@ -76,7 +78,7 @@ a {
 }
 
 a:hover {
-  color: #616f9e;
+  color: #3d3d3d;
   text-decoration:none;
   cursor:pointer;
 }
@@ -132,15 +134,19 @@ h2 {
   padding: 0;
 }
 
-#button {
+#button a{
   display: block;
 	color: #FFFFFF;
 	text-align: center;
 	text-decoration: none;
 	background-color: #ea694a;
-	padding: 1px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+	padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#button a:hover {
+  	background-color: #3d3d3d;
 }
 
 h3 {
@@ -168,6 +174,9 @@ h3 {
 			 max-height: 450px;
 }
 
+.search {
+  padding-top: 14px;
+}
 
 #articles {
   background-color: #cccccc;
@@ -324,6 +333,14 @@ h3 {
 
 }
 
+@media screen and (max-width: 700px) {
+  .container li {
+    text-decoration: none;
+    border-top: 1px #79896d solid;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+}
 
 @media screen and (min-width: 1000px){
   #container {
