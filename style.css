@@ -155,15 +155,12 @@ li {
 	flex-shrink: 10;
 }
 
-<<<<<<< HEAD
-=======
 .bold {
   font-weight: 700;
   background-color: #ccc;
 }
 
 
->>>>>>> 0209440618261f544d7acf7411392c0b91f3bed9
 @media (min-width: 600px) {
 
   .flexcontainer {
@@ -188,7 +185,7 @@ li {
 
   .image {
     display: flex;
-    flex-wrap: wrap;
+    padding
   }
 }
 
@@ -322,6 +319,10 @@ nav ul {
     justify-content: center;
     float: none;
     margin: 20px;
+  }
+
+  img {
+    max-width:100%
   }
 
   #flexcontainer{
