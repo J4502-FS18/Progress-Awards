@@ -168,6 +168,12 @@ h3 {
 	font-weight: bold;
 }
 
+.bolder {
+  font-weight: bolder;
+  font-size: 1.1em;
+  color: #ea694a;
+}
+
 #socialmediawidgets {
   float: right;
   margin: 4px;
