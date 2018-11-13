@@ -127,13 +127,14 @@ h1 {
   padding-top: 0px;
   margin-top: 22px;
 }
+
 h2 {
 	font-size: 1.3rem;
 	color: #3d3d3d;
 	font-family: 'Poppins', Helvetica,sans-serif;
 	padding: 2.3px;
   padding-top: 25px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   text-decoration: none;
 }
 
@@ -148,8 +149,8 @@ h2 {
 	text-decoration: none;
 	background-color: #ea694a;
 	padding: 15px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #button a:hover {
@@ -165,6 +166,12 @@ h3 {
 
 .bold {
 	font-weight: bold;
+}
+
+.bolder {
+  font-weight: bolder;
+  font-size: 1.1em;
+  color: #ea694a;
 }
 
 #socialmediawidgets {
@@ -194,13 +201,19 @@ h3 {
   display: flex;
   justify-content: center;
   width: 100%;
+<<<<<<< HEAD
   max-height:400px;
   margin-top: 30px;
   margin-bottom: 60px;
+=======
+  margin-top: 35px;
+  margin-bottom: 10px;
+>>>>>>> 5f1d94766cfbdd3be052c7769ff7424bbce2fd99
 }
 
 .home {
-  margin-bottom: 60px;
+  margin: 0px;
+  padding: 0px;
 }
 
 #articles {
@@ -258,13 +271,17 @@ h3 {
 
   .home {
     margin-top: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     padding: 0;
   }
 
   .group {
     margin-bottom: 30px;
     padding-bottom: 0;
+  }
+
+  .sentence {
+    padding-bottom: 20px;
   }
 
 @media (max-width: 800px) {
@@ -313,14 +330,18 @@ h3 {
     }
 
     .home {
-      margin-top: 5px;
-      margin-bottom: 65px;
+      margin-top: 0px;
+      margin-bottom: 15px;
       padding: 0;
     }
 
     .group {
-      margin-bottom: 60px;
+      margin-bottom: 30px;
       padding-bottom: 0;
+    }
+
+    .sentence {
+      padding-bottom: 30px;
     }
 
     article {
