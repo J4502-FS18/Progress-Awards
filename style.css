@@ -201,14 +201,8 @@ h3 {
   display: flex;
   justify-content: center;
   width: 100%;
-<<<<<<< HEAD
-  max-height:400px;
-  margin-top: 30px;
-  margin-bottom: 60px;
-=======
   margin-top: 35px;
   margin-bottom: 10px;
->>>>>>> 5f1d94766cfbdd3be052c7769ff7424bbce2fd99
 }
 
 .home {
@@ -450,4 +444,18 @@ h3 {
   #flexcontainer{
     max-width: 800px;
   }
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
