@@ -166,6 +166,7 @@ h3 {
 
 .bold {
 	font-weight: bold;
+
 }
 
 .bolder {
@@ -227,6 +228,7 @@ h3 {
 
 .underlined {
   text-decoration: underline;
+  font-size: 1.6em;
 }
 
 #articles {
@@ -248,7 +250,7 @@ h3 {
 }
 
 #container {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -263,8 +265,9 @@ h3 {
 }
 
 .bold {
-  font-weight: 700;
-  background-color: #ccc;
+  font-weight: 400;
+  background-color: #3d3d3d;
+  color: #fff;
 }
 
 .bold2 {
@@ -361,6 +364,7 @@ h3 {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
       grid-gap: 20px;
+      justify-content: center;
       grid-template-areas:
       ". a b ."
       ". c d ."
@@ -436,6 +440,7 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
+    justify-content: center;
     grid-template-areas:
     "a b c ."
     "d e f ."
