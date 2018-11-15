@@ -49,7 +49,7 @@ nav a .container {
 .container li {
     display: block;
     text-decoration: none;
-    padding-top: 25px;
+    padding-top: 19px;
     padding-right: 10px;
 }
 
@@ -123,9 +123,9 @@ h1 {
 }
 
 .logo {
-  padding-bottom: 10px;
+  padding-bottom: 2px;
   padding-top: 0px;
-  margin-top: 22px;
+  margin-top: 14px;
 }
 
 h2 {
@@ -166,7 +166,6 @@ h3 {
 
 .bold {
 	font-weight: bold;
-
 }
 
 .bolder {
@@ -277,7 +276,7 @@ h3 {
 
 .bold {
   font-weight: 400;
-  background-color: #3d3d3d;
+  background-color: #6A757F;
   color: #fff;
 }
 
