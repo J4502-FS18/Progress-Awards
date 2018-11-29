@@ -113,6 +113,13 @@ p {
   line-height: 1.6rem;
 }
 
+.h5 {
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-size: 3em;
+  justify-content: center;
+  color: #ffffff;
+}
+
 h1 {
 	font-size: 1.8rem;
 	color: #324359;
@@ -467,6 +474,33 @@ h3 {
     "d e f ."
     "g h i ."
     "j . . .";
+  }
+
+  .years {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    grid-template-areas:
+    "a b"
+    "c d";
+  }
+
+  .years {
+      margin: 0;
+      padding: 0;
+      padding-bottom: 50px;
+      list-style: none;
+      justify-content: center;
+  }
+
+  .years li {
+      display: block;
+      background-color: #679fc2;
+      border: none;
+      padding: 70px;
+      border-radius: 2px;
   }
 }
 
