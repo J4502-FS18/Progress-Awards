@@ -143,6 +143,8 @@ h4 {
 	color: #ea694a;
 	font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
 	text-align: left;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .nominate {
@@ -169,10 +171,6 @@ h3 {
 	color: #3d3d3d;
 	font-family: 'Poppins',Helvetica,sans-serif;
 	padding: 1px;
-}
-
-.bold {
-	font-weight: bold;
 }
 
 .bolder {
@@ -232,7 +230,7 @@ h3 {
 
 .sentence {
   font-size: 1.5em;
-  color: #ea694a;
+  color: #679fc2;
   margin: 0px;
   margin-top: 30px;
   line-height: 1.4em;
@@ -245,6 +243,8 @@ h3 {
 .underlined {
   text-decoration: underline;
   font-size: 1.6em;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 #articles {
