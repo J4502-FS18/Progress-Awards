@@ -399,6 +399,7 @@ color: #ffffff;
 
 article3 {
   display: flex;
+  margin-bottom: 50px;
   flex-wrap: wrap;
   flex-grow: 100;
   flex-direction: row;
@@ -657,17 +658,30 @@ article3 {
   max-height: 800px;
   grid-area: d;
   background-color: #ccc;
-  color: #000
+  color: #000;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .pullquote h2{
-  color: #ea694a;
+  color: #616f9e;
   font-size: 1.75em;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
 }
 
 .pullquote h3{
-  color: #000;
+  color: #3d3d3d;
   font-size: 1.25em;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.pullquote p{
+  font-size: .9em;
 }
 
 article3 {
