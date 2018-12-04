@@ -464,6 +464,16 @@ h3 {
       ". g h ."
       ". i j .";
     }
+
+    article2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 20px;
+      justify-content: center;
+      grid-template-areas:
+      "a b c"
+    }
+
   }
 }
 
@@ -481,10 +491,39 @@ h3 {
     justify-content: center;
   }
 
+  .sponsorimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+    "a b ."
+    justify-content: left;
+  }
+
   .image {
     display: flex;
     flex-wrap: wrap;
   }
+}
+
+.sponsorimage1 {
+  grid-area: a;
+}
+
+.sponsorimage2 {
+  grid-area: b;
+}
+
+.sponsorimage3 {
+  grid-area: a;
+}
+
+.sponsorimage4 {
+  grid-area: b;
+}
+
+.sponsorimage5 {
+  grid-area: c;
 }
 
   .image1 {
