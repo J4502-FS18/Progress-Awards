@@ -292,10 +292,7 @@ h3 {
 }
 
 .h5 {
-  font-family: 'Poppins', Helvetica, sans-serif;
-  font-size: 2em;
-  justify-content: center;
-  color: #ffffff;
+
 }
 
 .years {
@@ -310,6 +307,10 @@ h3 {
 }
 
 .years {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 2em;
+    justify-content: center;
+    color: #ffffff;
     margin-top: 0px;
     padding: 0;
     padding-bottom: 50px;
@@ -322,7 +323,7 @@ h3 {
     background-color: #679fc2;
     border: none;
     padding: 50px;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .years li:hover {
@@ -330,7 +331,7 @@ h3 {
   background-color: #616f9e;
 }
 
-.years a:hover {
+.years a:hover, .years a:active {
   display: block;
   color: #ffffff;
 }
@@ -391,11 +392,17 @@ h3 {
 
 @media screen and (min-width: 800px){
 
-  .h5 {
+  .years {
     font-family: 'Poppins', Helvetica, sans-serif;
     font-size: 3em;
     justify-content: center;
     color: #ffffff;
+    padding-top: 15px;
+  }
+
+  .years li {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
     nav ul {
