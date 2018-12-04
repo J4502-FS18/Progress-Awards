@@ -345,11 +345,13 @@ h3 {
     border: none;
     padding: 50px;
     border-radius: 3px;
+    color: #ffffff;
 }
 
-.years li:hover {
+.years li:hover, .years li:active {
   display: block;
   background-color: #616f9e;
+  color: #ffffff;
 }
 
 .years a:hover, .years a:active {
@@ -361,13 +363,9 @@ h3 {
 .years a {
 display: block;
 width: 100%;
+color: #ffffff;
 }
 
-#years {
-  display: block;
-  margin-top: 50px;
-  width: 100%;
-}
 
 @media (min-width: 300px) {
 
