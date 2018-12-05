@@ -417,11 +417,11 @@ color: #ffffff;
   }
 
   .pullquote {
-    background-color: #ccc;
+    background-color: #e2e2e2;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    margin-top:20px; 
+    margin-top:20px;
   }
 
   .pullquote h2{
@@ -676,7 +676,7 @@ color: #ffffff;
     max-width: 400px;
     max-height: 800px;
     grid-area: d;
-    background-color: #ccc;
+    background-color: #e2e2e2;
     color: #000;
     padding-left: 20px;
     padding-right: 20px;
