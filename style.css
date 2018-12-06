@@ -768,11 +768,10 @@ article3 {
 	width: 100%;
 	height: 100%;
 }
-<<<<<<< HEAD
 
 .pullquote {
   max-width: 400px;
-  max-height: 800px;
+  max-height: 500px;
   grid-area: d;
   background-color: #ccc;
   color: #000
@@ -817,5 +816,3 @@ article3 {
 .closing {
   grid-area: e;
 }
-=======
->>>>>>> e5cd74ed60b119706031c4bb256cd948bea9af54
