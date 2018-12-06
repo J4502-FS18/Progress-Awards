@@ -367,7 +367,7 @@ color: #ffffff;
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (min-width: 300px) {
 
   article {
     display: flex;
@@ -432,6 +432,10 @@ color: #ffffff;
     width: 100%;
   }
 
+  .profile img {
+    width: 50px;
+  }
+
   .pullquote {
     background-color: #e2e2e2;
     padding-left: 20px;
@@ -459,6 +463,12 @@ color: #ffffff;
   .pullquote p{
     font-size: .9em;
   }
+
+  .pullquote {
+    grid-area: d;
+    background-color: #ccc;
+    color: #000
+  }
 }
 
 
@@ -478,6 +488,12 @@ color: #ffffff;
     border-top: 1px #79896d solid;
     padding: 0;
     padding-bottom: 10px;
+  }
+
+  .pullquote {
+    grid-area: d;
+    background-color: #ccc;
+    color: #000
   }
 /*
     article3 {
@@ -569,6 +585,12 @@ color: #ffffff;
       justify-content: center;
       grid-template-areas:
       "a b c"
+    }
+
+    .pullquote {
+      grid-area: d;
+      background-color: #ccc;
+      color: #000
     }
 
   }
