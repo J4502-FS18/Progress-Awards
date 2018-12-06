@@ -9,8 +9,9 @@ font-family: 'Poppins', sans-serif;*/
   font-size: 0.75em;
 }
 
-li {
+.sponsorlist {
   padding: 3px;
+  margin-left: 2em;
   font-family: 'Poppins', Helvetica, sans-serif;
   font-size: 1em;
   padding: .08px;
@@ -285,10 +286,9 @@ h3 {
 }
 
 #articles a:hover {
-  color:#3d3d3d;
+  color:#ffffff;
   text-decoration:none;
   cursor:pointer;
-  font-weight: bold;
 }
 
 #container {
@@ -345,11 +345,13 @@ h3 {
     border: none;
     padding: 50px;
     border-radius: 3px;
+    color: #ffffff;
 }
 
-.years li:hover {
+.years li:hover, .years li:active {
   display: block;
   background-color: #616f9e;
+  color: #ffffff;
 }
 
 .years a:hover, .years a:active {
@@ -361,12 +363,7 @@ h3 {
 .years a {
 display: block;
 width: 100%;
-}
-
-#years {
-  display: block;
-  margin-top: 50px;
-  width: 100%;
+color: #ffffff;
 }
 
 
@@ -398,8 +395,8 @@ width: 100%;
   .container {
 
   }
-}
 
+<<<<<<< HEAD
 article3 {
   display: flex;
   flex-wrap: wrap;
@@ -413,7 +410,58 @@ article3 {
   "d ."
   "e ."
   "f .";
+=======
+  article3 {
+    display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    flex-grow: 100;
+    flex-direction: row;
+    justify-content: center;
+    grid-template-areas:
+    "b"
+    "a"
+    "c"
+    "d"
+    "e"
+    "f";
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .pullquote {
+    background-color: #e2e2e2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top:20px;
+  }
+
+  .pullquote h2{
+    color: #616f9e;
+    font-size: 1.75em;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+  }
+
+  .pullquote h3{
+    color: #3d3d3d;
+    font-size: 1.25em;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .pullquote p{
+    font-size: .9em;
+  }
+>>>>>>> e5cd74ed60b119706031c4bb256cd948bea9af54
 }
+
+
 
 @media (max-width: 800px) {
   article {
@@ -639,6 +687,72 @@ article3 {
   #flexcontainer{
     max-width: 800px;
   }
+
+  .pullquote {
+    max-width: 400px;
+    max-height: 800px;
+    grid-area: d;
+    background-color: #e2e2e2;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .pullquote h2{
+    color: #616f9e;
+    font-size: 1.75em;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+  }
+
+  .pullquote h3{
+    color: #3d3d3d;
+    font-size: 1.25em;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .pullquote p{
+    font-size: .9em;
+  }
+
+  article3 {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-template-areas:
+    "a a b"
+    "c c d"
+    "f f f"
+    "e e e";
+  }
+
+  .intro {
+    grid-area: a;
+  }
+  .profile {
+    grid-area: b;
+  }
+
+  .part2 {
+    grid-area: c;
+  }
+
+  .sherman {
+    padding-top: 30px;
+  }
+
+  .part3 {
+    grid-area: f;
+  }
+  .closing {
+    grid-area: e;
+  }
 }
 
 .videoWrapper {
@@ -654,6 +768,7 @@ article3 {
 	width: 100%;
 	height: 100%;
 }
+<<<<<<< HEAD
 
 .pullquote {
   max-width: 400px;
@@ -702,3 +817,5 @@ article3 {
 .closing {
   grid-area: e;
 }
+=======
+>>>>>>> e5cd74ed60b119706031c4bb256cd948bea9af54
