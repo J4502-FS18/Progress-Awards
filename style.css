@@ -407,12 +407,12 @@ article3 {
   flex-direction: row;
   justify-content: center;
   grid-template-areas:
-  "b"
-  "a"
-  "c"
-  "d"
-  "e"
-  "f";
+  "b ."
+  "a ."
+  "c ."
+  "d ."
+  "e ."
+  "f .";
 }
 
 @media (max-width: 800px) {
@@ -689,6 +689,7 @@ article3 {
 }
 .profile {
   grid-area: b;
+  padding-top: 30px;
 }
 
 .part2 {
