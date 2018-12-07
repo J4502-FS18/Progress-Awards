@@ -372,9 +372,11 @@ color: #ffffff;
   article {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 100;
+    flex-grow: 0;
     flex-direction: row;
     justify-content: center;
+    max-width:100%;
+    height:auto;
   }
 
   .home {
@@ -466,8 +468,12 @@ color: #ffffff;
 
   .pullquote {
     grid-area: d;
-    background-color: #ccc;
+    background-color: #e2e2e2;
     color: #000
+  }
+
+  .closing {
+    margin-bottom: 50px;
   }
 }
 
@@ -492,7 +498,7 @@ color: #ffffff;
 
   .pullquote {
     grid-area: d;
-    background-color: #ccc;
+    background-color: #e2e2e2;
     color: #000
   }
 /*
@@ -511,6 +517,21 @@ color: #ffffff;
   }
 
 @media screen and (min-width: 800px){
+
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-column-gap: 40px;
+    grid-template-areas:
+    "a b"
+    "c d"
+    "e f"
+    "g h"
+    "i j";
+    justify-content: center;
+  }
 
   .years {
     font-family: 'Poppins', Helvetica, sans-serif;
@@ -564,7 +585,7 @@ color: #ffffff;
       padding-bottom: 30px;
     }
 
-    article {
+  /*  .images {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -576,7 +597,7 @@ color: #ffffff;
       ". e f ."
       ". g h ."
       ". i j .";
-    }
+    } */
 
     article2 {
       display: grid;
@@ -588,10 +609,116 @@ color: #ffffff;
     }
 
     .pullquote {
+      max-width: 400px;
+      max-height: 1800px;
       grid-area: d;
-      background-color: #ccc;
-      color: #000
+      background-color: #e2e2e2;
+      color: #000;
+      padding-bottom: 50px;
+      padding-top: 0px;
+      margin-top: 0px;
     }
+
+    .pullquote h2{
+      color: #616f9e;
+      font-size: 1.5em;
+      margin-top: 0;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      margin-bottom: 0;
+    }
+
+    .pullquote h3{
+      color: #3d3d3d;
+      font-size: 1em;
+      padding-top: 20px;
+      margin-top: 0;
+    }
+
+    .pullquote p{
+      font-size: .8em;
+    }
+
+    article3 {
+      display: grid;
+      grid-template-columns: 200px 1fr 1fr;
+      grid-column-gap: 20px;
+      grid-row-gap: 0;
+      grid-template-areas:
+      "a a b"
+      "c c d"
+      "f f f"
+      "e e e";
+    }
+
+    .intro {
+      grid-area: a;
+    }
+    .profile {
+      grid-area: b;
+    }
+
+    .part2 {
+      grid-area: c;
+    }
+
+    .sherman {
+      padding-top: 30px;
+    }
+
+    .part3 {
+      grid-area: f;
+    }
+    .closing {
+      grid-area: e;
+      margin-bottom: 40px;
+    }
+
+  .pullquote {
+    max-width: 400px;
+    max-height: 1150px;
+    grid-area: d;
+    background-color: #e2e2e2;
+    color: #000;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+  }
+
+  article3 {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0;
+    grid-template-areas:
+    "a a b"
+    "c c c"
+    "f f d"
+    "e e e";
+  }
+
+  .intro {
+    grid-area: a;
+  }
+  .profile {
+    grid-area: b;
+    padding-top: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .part2 {
+    grid-area: c;
+  }
+
+  .part3 {
+    grid-area: f;
+  }
+  .closing {
+    grid-area: e;
+  }
 
   }
 
@@ -599,14 +726,16 @@ color: #ffffff;
 @media screen and (min-width: 1000px) {
   .images {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
+    grid-column-gap: 40px;
     grid-template-areas:
-    ". a b c ."
-    ". d e f ."
-    ". g h i."
-    ". j . .";
+    "a b"
+    "c d"
+    "e f"
+    "g h"
+    "i j";
     justify-content: center;
   }
 
@@ -683,6 +812,7 @@ color: #ffffff;
     grid-area: j
   }
 }
+
 @media screen and (min-width: 1000px) {
   article {
     display: grid;
@@ -723,22 +853,22 @@ color: #ffffff;
 
   .pullquote {
     max-width: 400px;
-    max-height: 800px;
+    max-height: 1100px;
     grid-area: d;
     background-color: #e2e2e2;
     color: #000;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     padding-top: 0px;
     margin-top: 0px;
   }
 
   .pullquote h2{
     color: #616f9e;
-    font-size: 1.75em;
+    font-size: 1.55em;
     margin-top: 0;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 15px;
     margin-bottom: 0;
   }
@@ -747,7 +877,8 @@ color: #ffffff;
     color: #3d3d3d;
     font-size: 1.25em;
     padding-top: 0;
-    margin-top: 0;
+    padding-bottom: 20px;
+    margin-top: 10px;
   }
 
   .pullquote p{
@@ -758,6 +889,7 @@ color: #ffffff;
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
     grid-column-gap: 20px;
+    grid-row-gap: 0;
     grid-template-areas:
     "a a b"
     "c c d"
@@ -785,7 +917,54 @@ color: #ffffff;
   }
   .closing {
     grid-area: e;
+    margin-bottom: 40px;
   }
+
+.pullquote {
+  max-width: 400px;
+  max-height: 900px;
+  grid-area: d;
+  background-color: #e2e2e2;
+  color: #000;
+  padding-top: 20px;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+article3 {
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0;
+  grid-template-areas:
+  "a a b"
+  "c c c"
+  "f f d"
+  "e e e";
+}
+
+.intro {
+  grid-area: a;
+}
+.profile {
+  grid-area: b;
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.part2 {
+  grid-area: c;
+}
+
+.part3 {
+  grid-area: f;
+}
+.closing {
+  grid-area: e;
+}
+}
 
 .videoWrapper {
 	position: relative;
@@ -799,53 +978,4 @@ color: #ffffff;
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
-
-.pullquote {
-  max-width: 400px;
-  max-height: 500px;
-  grid-area: d;
-  background-color: #ccc;
-  color: #000
-}
-
-.pullquote h2{
-  color: #ea694a;
-  font-size: 1.75em;
-}
-
-.pullquote h3{
-  color: #000;
-  font-size: 1.25em;
-}
-
-article3 {
-  display: grid;
-  grid-template-columns: 200px 1fr 1fr;
-  grid-gap: 20px;
-  grid-template-areas:
-  "a a b"
-  "c c d"
-  "f f f"
-  "e e e";
-}
-
-.intro {
-  grid-area: a;
-}
-.profile {
-  grid-area: b;
-  padding-top: 30px;
-}
-
-.part2 {
-  grid-area: c;
-}
-
-.part3 {
-  grid-area: f;
-}
-.closing {
-  grid-area: e;
-}
 }
