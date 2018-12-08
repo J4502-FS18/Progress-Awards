@@ -431,11 +431,7 @@ color: #ffffff;
   } */
 
   .profile {
-    width: 100%;
-  }
-
-  .profile img {
-    width: 50px;
+    margin-top: 50px;
   }
 
   .pullquote {
